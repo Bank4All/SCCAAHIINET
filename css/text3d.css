@@ -1,0 +1,22 @@
+#text3d {
+    color: #70869d;
+    letter-spacing: .15em;
+    text-shadow: 
+      -1px -1px 1px #efede3, 
+      0px 12px 0 #181818, 
+      0px 13px 0 #161616, 
+      0px 14px 0 #141414, 
+      0px 15px 0 #121212,
+      2px 20px 5px rgba(0, 0, 0, 0.9),
+      5px 23px 5px rgba(0, 0, 0, 0.3),
+      8px 27px 8px rgba(0, 0, 0, 0.5),
+      8px 28px 35px rgba(0, 0, 0, 0.9);
+ }
+ #text_shaddowed {
+    color: #70869d;
+    letter-spacing: .15em;
+    text-shadow: 
+      -1px -1px 0px #efede3, 
+      0px 1px 0 #181818,
+      1px 1px 3px rgba(0, 0, 0, 0.9);
+ }
