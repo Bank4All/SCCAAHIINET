@@ -1,0 +1,64 @@
+.Title Actinomorphe
+.Author Daniel BOUTRIN
+.Version 1.0
+:toc: left
+
+include::asciidoc/styles.adoc[]
+include::asciidoc/katex.adoc[]
+
+++++
+<script>
+	function toggleVisibility(id) {
+		var div = document.getElementById(id);
+		if (div.style.display === "none") {
+			div.style.display = "block";
+		} else {
+			div.style.display = "none";
+		}
+	}
+	function showQRCode() {
+		var qrcode = new QRCode({
+			content: "Hello World!",
+			container: "svg-viewbox", //Responsive use
+			join: true //Crisp rendering and 4-5x reduced file size
+		});
+		var svg = qrcode.svg();
+		document.getElementById("qrcode").innerHTML = svg;
+	}
+</script>
+<text id="text3d" style="font-size:8rem;">\$S\{CA\}²H||NET\$</text>
+
+<h2 id="text_shaddowed">
+Société de Conseil et Construction d’Automate Actinomorphe Holistique en
+Informatique Industrielle des Nanotechnologie d'Endosquelettes Telecommandables</h2>
+<div class="grid">
+  <div class="button" role="button" onclick="toggleVisibility('Actinomorph');"><span>Automate</span></div>
+  <div class="button" role="button" onclick="toggleVisibility('Actinomorph');showQRCode();"><span>Actinomorph</span></div>
+  <div class="button" role="button" onclick="toggleVisibility('Organoid');"><span>Organoid</span></div>
+  <div class="button" role="button"><span>Sensor</span></div>
+  <div class="button" role="button"><span>Motor</span></div>
+  <div class="button" role="button"><span>Solid Fuel</span></div>
+  <div class="button" role="button"><span>Solique</span></div>
+  <div class="button" role="button"><span>Endosquelette</span></div>
+  <button disabled="disabled"><span>Contacts</span></button>
+  <button disabled="disabled">About</button>
+</div>
+++++
+
+[[section-titles]]
+= \$S\{CA\}²H||NET\$
+
+[quote, Daniel BOUTRIN]
+La peur est la seule monnaie entre les vivants, le courage fait les histoires et la strategie, les survivants..
+
+
+== Actinomorphe
+
+=== Préambule
+
+Rien ne survie longtemps par hasard, il est donc interessant de comprendre pourquoi l'un des grands facteur de survie 
+des especes s'explique par le recours aux symetries.
+
+L'autre grande interrogation, est pourquoi, la nature n'a jamais choisi la roue comme solution de stockage d'energie.
+
+
